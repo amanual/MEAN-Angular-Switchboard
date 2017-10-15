@@ -1,0 +1,22 @@
+.divColor{
+    width: 100px;
+    height: 100px;
+    background-color: Sienna;
+    border: 2px solid black;
+    align-items: center;
+    float: left;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 22.5px;
+    margin-top: 22.5px;
+    background-color: red;
+ }
+.btcolor{
+    background-color: red;
+}
+button.ON1{
+    background-color: lime;
+}

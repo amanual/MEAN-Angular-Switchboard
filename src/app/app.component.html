@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ON and OFF Buttons</title>
+</head>
+<body>
+  <div>
+    <div class='divColor' *ngFor = "let switches of defaultOFF; let idx = index" >
+      <button *ngIf="switches" class="Btcolor"  [ngClass]="{'ON1':switches }" (click)='switch2(idx)'>ON</button>
+      <button *ngIf="!switches" class="Btcolor" [ngClass]="{'ON1':switches  }"  (click)='switch2(idx)'>OFF</button>
+    </div>
+  </div>  
+</body>
+</html>
